@@ -13,6 +13,18 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       title: "App hello world",
       home: Scaffold(
+        body: Container(
+          margin: EdgeInsets.all(100),
+          child: Column(
+            // centraliza no eixo principal
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Text("Olá mundo 01"),
+              Text("Olá mundo 02"),
+              Text("Olá mundo 03"),
+            ],
+          ),
+        ),
         drawer: Drawer(
           child: ListView(
             children: <Widget>[
