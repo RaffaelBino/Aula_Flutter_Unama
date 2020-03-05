@@ -13,7 +13,9 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       title: "App hello world",
       home: Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text("Hello World App"),
+        ),
       ),
     );
   }
