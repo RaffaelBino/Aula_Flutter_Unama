@@ -1,0 +1,21 @@
+Atores:
+Docentes
+Animal
+Biotério
+Comissão:
+	- Parecerista
+	- Presidente 
+	- Vice-Presidente
+
+Funcionalidades:
+Emitir protocolo eletronico para a CAUAE
+	|
+	|--> Preencher informações
+	|--> Justificar o uso do animais
+	|--> Fazer um resumo Inglês e Portugues
+	|-->
+Enviar protocolo para CAUAE
+Emitir permissão
+Analisar protocolos
+Emitir os certificados ( aprovados/reprovados )
+Enviar malote para os pesquisadores
