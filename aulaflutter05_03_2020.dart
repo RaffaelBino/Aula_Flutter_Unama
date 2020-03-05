@@ -20,6 +20,11 @@ class _HomeState extends State<Home> {
                 title: Text("Perfil"),
                 leading: Icon(Icons.ac_unit),
                 onTap: () {},
+              ),
+              ListTile(
+                title: Text("Cadastrar"),
+                leading: Icon(Icons.add_a_photo),
+                onTap: () {},
               )
             ],
           ),
