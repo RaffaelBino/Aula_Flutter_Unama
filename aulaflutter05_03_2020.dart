@@ -13,6 +13,17 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       title: "App hello world",
       home: Scaffold(
+        drawer: Drawer(
+          child: ListView(
+            children: <Widget>[
+              ListTile(
+                title: Text("Perfil"),
+                leading: Icon(Icons.ac_unit),
+                onTap: () {},
+              )
+            ],
+          ),
+        ),
         appBar: AppBar(
           title: Text("Hello World App"),
         ),
