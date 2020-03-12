@@ -8,6 +8,12 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  int numero = 0;
+  
+  void incrementar(){
+    numero++;
+  }
+    
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -19,7 +25,7 @@ class _HomeState extends State<Home> {
           floatingActionButton: FloatingActionButton(
             child: Icon(Icons.plus_one),
             onPressed: () {
-              print("Click!");
+              incrementar();
             },
           ),
           body: Center(
@@ -27,7 +33,7 @@ class _HomeState extends State<Home> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text("Contagem:"),
-                Text("0"),
+                Text("$numero"),
               ],
             ),
           ),
