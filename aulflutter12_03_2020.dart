@@ -11,7 +11,9 @@ class _HomeState extends State<Home> {
   int numero = 0;
   
   void incrementar(){
-    numero++;
+    setState((){
+      numero++;
+    });
   }
     
   @override
@@ -26,6 +28,7 @@ class _HomeState extends State<Home> {
             child: Icon(Icons.plus_one),
             onPressed: () {
               incrementar();
+              print("$numero");
             },
           ),
           body: Center(
