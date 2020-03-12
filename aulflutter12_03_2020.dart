@@ -28,7 +28,6 @@ class _HomeState extends State<Home> {
             child: Icon(Icons.plus_one),
             onPressed: () {
               incrementar();
-              print("$numero");
             },
           ),
           body: Center(
