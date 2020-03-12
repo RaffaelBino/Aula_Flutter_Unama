@@ -13,20 +13,24 @@ class _HomeState extends State<Home> {
     return MaterialApp(
         title: "App hello world",
         home: Scaffold(
-            appBar: AppBar(
-              title: Text("Contador"),
-            ),
-            floatingActionButton: FloatingActionButton(
-              onPressed: (){
-                print("Click!");
-              },),
-            body: Column(
+          appBar: AppBar(
+            title: Text("Contador"),
+          ),
+          floatingActionButton: FloatingActionButton(
+            child: Icon(Icons.plus_one),
+            onPressed: () {
+              print("Click!");
+            },
+          ),
+          body: Center(
+            child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
                 Text("Contagem:"),
                 Text("0"),
               ],
-            )
+            ),
+          ),
         )
     );
   }
