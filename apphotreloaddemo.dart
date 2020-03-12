@@ -48,7 +48,6 @@ class _HomeState extends State<Home> {
                   padding: EdgeInsets.all(8.0),
                   splashColor: Colors.blueAccent,
                   onPressed: () {
-                    /*...*/
                   },
                   child: Text(
                     "Desincrementar",
@@ -66,7 +65,6 @@ class _HomeState extends State<Home> {
                   padding: EdgeInsets.all(8.0),
                   splashColor: Colors.blueAccent,
                   onPressed: () {
-                    /*...*/
                   },
                   child: Text(
                     "Incrementar",
