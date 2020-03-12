@@ -17,7 +17,9 @@ class _HomeState extends State<Home> {
               title: Text("Contador"),
             ),
             floatingActionButton: FloatingActionButton(
-              onPressed: (){},),
+              onPressed: (){
+                print("Click!");
+              },),
             body: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
