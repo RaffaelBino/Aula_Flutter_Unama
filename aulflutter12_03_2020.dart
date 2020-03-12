@@ -14,9 +14,15 @@ class _HomeState extends State<Home> {
         title: "App hello world",
         home: Scaffold(
             body: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Text("Olá mundo"),
             Text("Olá Fala Tadeu"),
+            Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
+              Text("Olá mundo"),
+              Text("Olá Fala Raffael"),
+            ]
+            ),
           ],
         )
         )
