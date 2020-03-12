@@ -13,16 +13,14 @@ class _HomeState extends State<Home> {
     return MaterialApp(
         title: "App hello world",
         home: Scaffold(
+          appBar: AppBar(
+            title: Text("Contador"),
+          ),
             body: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
-            Text("Olá mundo"),
-            Text("Olá Fala Tadeu"),
-            Row(mainAxisAlignment: MainAxisAlignment.center, children: <Widget>[
-              Text("Olá mundo"),
-              Text("Olá Fala Raffael"),
-            ]
-            ),
+            Text("Contagem:"),
+            Text("0"),
           ],
         )
         )
